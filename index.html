@@ -465,5 +465,31 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-open">
+      <div class="modal">
+        <button type="button" class="modal-close-btn">
+          <svg class="modal-close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-backdrop"></use>
+          </svg>
+        </button>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+        <form class="modal-form">
+          <label for="name" class="modal-label-input">Name</label>
+          <input type="text" class="modal-input" name="name" id="name" />
+          <label for="phone" class="modal-label-input">Phone</label>
+          <input type="tel" class="modal-input" name="phone" id="phone" />
+          <label for="email" class="modal-label-input">Email</label>
+          <input type="email" class="modal-input" name="email" id="email" />
+          <label for="comment" class="modal-label-textarea">Comment</label>
+          <textarea
+            name="comment"
+            class="modal-textarea"
+            placeholder="Text input"
+            id="comment"
+            rows="6"
+          ></textarea>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
