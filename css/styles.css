@@ -595,7 +595,7 @@ a {
   transform: translate(-50%, -50%) scale(1);
   background-color: #fcfcfc;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 72px 24px 0 24px;
+  padding: 72px 24px 24px 24px;
 }
 .modal-close-btn {
   position: absolute;
@@ -643,12 +643,13 @@ a {
 }
 
 .modal-label-input {
+  display: block;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: var(--light-slate);
+  color: rgba(46, 47, 66, 0.4);
   margin-bottom: 4px;
 }
 
@@ -661,6 +662,7 @@ a {
   border-radius: 4px;
   width: 360px;
   height: 40px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
 .modal-textarea {
@@ -669,15 +671,17 @@ a {
   border-radius: 4px;
   width: 360px;
   resize: none;
+  border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
 .modal-label-textarea {
+  display: block;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: var(--light-slate);
+  color: rgba(46, 47, 66, 0.4);
   margin-bottom: 4px;
 }
 
@@ -687,5 +691,5 @@ textarea::placeholder {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: var(--navy-blue-modal);
+  color: rgba(46, 47, 66, 0.4);
 }
